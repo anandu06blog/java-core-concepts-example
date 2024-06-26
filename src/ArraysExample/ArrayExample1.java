@@ -11,5 +11,9 @@ public class ArrayExample1 {
         int[] intArray = {1,0,3,3,3};
         int[] intArraynew = new int[]{1,2,3,4,5,6,7,8,8};
         System.out.println(Arrays.stream(intArraynew).summaryStatistics());
+
+        int[] numbers = {1, 2, 3, 4, 5};
+int index = Arrays.binarySearch(numbers, 3);
+System.out.println("Index of 3: " + index);
     }
 }
