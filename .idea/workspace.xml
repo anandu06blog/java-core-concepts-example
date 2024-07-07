@@ -2,7 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8fdb129a-2ba8-4ba4-9a06-d10080a4e85f" name="Changes" comment="Java Core concepts">
+      <change afterPath="$PROJECT_DIR$/src/pattern/creationalDesignPattern/factoryPattern/Streams.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/streamsByexample/StreamsMaxValue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/streamsByexample/creatingStreamByExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/streamsByexample/finfMinValueByUsingStream.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pattern/creationalDesignPattern/factoryPattern/FactoryPatternExampleByVechile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pattern/creationalDesignPattern/factoryPattern/FactoryPatternExampleByVechile.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,13 +39,16 @@
     <option name="version" value="2" />
   </component>
   <component name="ProjectId" id="2iHXltrb6o5jyCcUEkRM3AKh9Up" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
     &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
@@ -48,13 +56,13 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.ArrayExample1">
-    <configuration name="ArrayExample1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ArraysExample.ArrayExample1" />
+  <component name="RunManager" selected="Application.creatingStreamByExample">
+    <configuration name="Streams (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pattern.creationalDesignPattern.factoryPattern.Streams" />
       <module name="Java-Core-Concepts-Example" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ArraysExample.*" />
+          <option name="PATTERN" value="pattern.creationalDesignPattern.factoryPattern.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -62,12 +70,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CollectorsTeeingRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CollectorsExampleTeeing.CollectorsTeeingRunner" />
+    <configuration name="Streams" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pattern.creationalDesignPattern.factoryPattern.Streams" />
       <module name="Java-Core-Concepts-Example" />
+      <option name="PROGRAM_PARAMETERS" value="45 54" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="CollectorsExampleTeeing.*" />
+          <option name="PATTERN" value="pattern.creationalDesignPattern.factoryPattern.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -75,10 +84,59 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="StreamsMaxValue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="streamsByexample.StreamsMaxValue" />
+      <module name="Java-Core-Concepts-Example" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="streamsByexample.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="creatingStreamByExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="streamsByexample.creatingStreamByExample" />
+      <module name="Java-Core-Concepts-Example" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="streamsByexample.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="finfMinValueByUsingStream" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="streamsByexample.finfMinValueByUsingStream" />
+      <module name="Java-Core-Concepts-Example" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="streamsByexample.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.StreamsMaxValue" />
+      <item itemvalue="Application.creatingStreamByExample" />
+      <item itemvalue="Application.finfMinValueByUsingStream" />
+      <item itemvalue="Application.Streams (1)" />
+      <item itemvalue="Application.Streams" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ArrayExample1" />
-        <item itemvalue="Application.CollectorsTeeingRunner" />
+        <item itemvalue="Application.creatingStreamByExample" />
+        <item itemvalue="Application.finfMinValueByUsingStream" />
+        <item itemvalue="Application.StreamsMaxValue" />
+        <item itemvalue="Application.Streams" />
+        <item itemvalue="Application.Streams (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -129,7 +187,14 @@
       <option name="project" value="LOCAL" />
       <updated>1719401752094</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Java Core concepts">
+      <created>1719503864606</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1719503864606</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -144,7 +209,13 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Java Core concepts" />
     <option name="LAST_COMMIT_MESSAGE" value="Java Core concepts" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Java_Core_Concepts_Example$Streams.ic" NAME="Streams Coverage Results" MODIFIED="1719504696540" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>pattern.creationalDesignPattern.factoryPattern.*</FILTER>
+    </SUITE>
   </component>
 </project>

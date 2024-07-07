@@ -8,7 +8,7 @@ interface VehicleFactory {
 class CarFactory implements VehicleFactory {
     @Override
     public Vehicle createVehicle() {
-        return new Car();
+        return new ICar();
     }
 }
 
@@ -21,12 +21,12 @@ class BikeFactory implements VehicleFactory {
 }
 
 // Vehicle Interface
-interface Vehicle {
+interface IVehicle {
     void drive();
 }
 
 // Car class implementing Vehicle
-class Car implements Vehicle {
+class ICar implements Vehicle {
     @Override
     public void drive() {
         System.out.println("Driving a car");
